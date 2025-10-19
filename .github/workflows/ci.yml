@@ -9,7 +9,7 @@ unit-test:
     - name: Checkout
       uses: actions/Checkout@v2.0.0
     - name: Set Node.js 12.x
-      uses: acition/setup-node@v1.3.0
+      uses: actions/setup-node@v1.3.0
       with: 
         node-version: 12.x
     - name: Install dependencies
